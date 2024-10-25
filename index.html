@@ -15,7 +15,7 @@
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="Chakielroms"/>
     <meta property="og:image" content="https://raw.githubusercontent.com/Chakielzero/chakielroms/main/assets/icons/logo.png"/>
-    <meta property="og:image:alt" content="ChakielZero Roms Wii U"/>
+    <meta property="og:image:alt" content="ChakielZero Roms GRATIS"/>
     <meta property="og:image:width" content="600"/>
     <meta property="og:image:height" content="315"/>
     <meta property="og:url" content="http://chakielroms.com"/>
@@ -37,79 +37,498 @@
     <link rel="manifest" href="/site.webmanifest"/>
     <link rel="shortcut icon" href="assets/icons/favicon.ico" type="image/x-icon">
     
-    <title>ChakielZero Juegos Wii U Wua</title>
-    
-    <!-- Estilos -->
-    <link rel="stylesheet" href="assets/css/dark.css">
-    <link rel="stylesheet" href="assets/css/css.css">
+    <title>ChakielZero Roms GRATIS</title>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Estilos básicos */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e1e1e;
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2em;
+    color: #E0E0E0;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6), 
+                 0 0 10px rgba(0, 0, 0, 0.4);
+    background: linear-gradient(45deg, #E0E0E0, #B0B0B0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Sección Principal */
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+#main-image {
+    position: relative;
+    text-align: center;
+}
+
+#main-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para dispositivos móviles */
+.mobile-image {
+    display: block;
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.desktop-image {
+    display: none;
+}
+
+/* Media query para pantallas más grandes (escritorios) */
+@media (min-width: 768px) {
+    .mobile-image {
+        display: none;
+    }
+
+    .desktop-image {
+        display: block;
+        width: 100%;
+        max-width: 1200px; /* Cambia este valor según el tamaño deseado */
+        margin-bottom: 20px;
+    }
+}
+
+p {
+    font-size: 1.2em;
+    color: #ccc;
+    line-height: 1.8;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, rgba(255, 30, 86, 0.1), rgba(30, 144, 255, 0.1));
+    border-left: 5px solid #ff1e56;
+    border-right: 5px solid #ff1e56;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+p::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05), transparent);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+p:hover::before {
+    opacity: 1;
+}
+
+p:hover {
+    background: linear-gradient(135deg, rgba(255, 30, 86, 0.2), rgba(30, 144, 255, 0.2));
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Redes Sociales */
+.social-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaciado más amplio para mayor claridad */
+    margin-top: 30px;
+}
+
+.social-container a img {
+    width: 50px; /* Tamaño un poco más grande para destacar mejor */
+    height: 50px;
+    filter: none; /* Eliminamos el filtro gris */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transiciones para efectos 3D y sombras */
+    border-radius: 10px; /* Bordes ligeramente redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.social-container a img:hover {
+    transform: translateY(-5px) scale(1.05); /* Efecto 3D ligero */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4), 0 8px 30px rgba(0, 0, 0, 0.2); /* Sombra más profunda en hover */
+}
+
+/* Sección de Categorías */
+#gallery {
+    padding: 20px;
+    text-align: center;
+}
+
+#gallery h1 {
+    font-size: 2em;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+.game {
+    background-color: #2a2a2a;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.game:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(255, 30, 86, 0.4);
+}
+
+.game img {
+    width: 100%;
+    max-width: 300px; /* Limitamos el ancho de la imagen */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.game p {
+    font-size: 1.5em;
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.game button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1em;
+    color: white;
+    background-color: #ff1e56;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.game button:hover {
+    background-color: #ff4d79;
+}
+
+/* Botón de descarga */
+.download-btn {
+    background-color: #1e90ff;
+}
+
+.download-btn:hover {
+    background-color: #63b3ff;
+}
+
+/* Botón flotante */
+.custom-floating-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #ff1e56;
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.custom-floating-button:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #111;
+    color: #ccc;
+    font-size: 0.9em;
+}
+
+/* Media Queries para pantallas pequeñas */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #main-image img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .game img {
+        max-width: 100%; /* Aseguramos que las imágenes no sean más grandes que la pantalla */
+    }
+
+    .game p {
+        font-size: 1.2em;
+    }
+
+    .game button {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
+/* Estilo espectacular para el <hr> */
+hr {
+    border: none; /* Eliminar el estilo predeterminado */
+    height: 4px; /* Grosor del <hr> */
+    background: linear-gradient(to right, #ff416c, #ff4b2b); /* Degradado espectacular */
+    margin: 0 5%; /* Márgenes laterales, dejando espacio en los extremos */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra sutil para dar efecto 3D */
+    transition: width 0.3s ease; /* Transición suave al hover */
+}
+
+hr:hover {
+    width: 90%; /* Se acorta un poco en hover para darle dinamismo */
+    margin-left: auto; /* Mantener centrado */
+    margin-right: auto; /* Mantener centrado */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4); /* Sombra más pronunciada al hacer hover */
+}
+/* Estilo para el contenedor del video */
+.video-container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 20px auto; /* Centrar el contenedor en la página */
+    position: relative; /* Para efectos de sombra */
+    overflow: hidden; /* Para que la sombra no salga del contenedor */
+    border-radius: 8px; /* Bordes redondeados para el contenedor */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+/* Estilo para el iframe */
+.video-container iframe {
+    width: 100%; /* Ancho completo del contenedor */
+    height: 450px; /* Altura del video */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados del iframe */
+}
+
+/* Estilo para el título h2 */
+.video-title {
+    font-size: 2em; /* Tamaño de fuente grande */
+    color: #FFD700; /* Color dorado */
+    position: relative; /* Necesario para la línea debajo */
+    text-align: center; /* Centrar el texto */
+    margin: 20px 0; /* Margen vertical */
+}
+
+/* Línea debajo del h2 */
+.video-title::after {
+    content: ''; /* Generar un pseudo-elemento vacío */
+    display: block; /* Mostrar como bloque */
+    width: 80%; /* Ancho de la línea */
+    height: 4px; /* Altura de la línea */
+    background-color: #800000; /* Color vino */
+    margin: 10px auto; /* Centrar la línea */
+    border-radius: 2px; /* Bordes redondeados */
+}
+.uvideos {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Color de fondo oscuro */
+    color: #fff; /* Color del texto */
+}
+
+.video-slider {
+    display: flex;
+    overflow-x: auto; /* Permitir desplazamiento horizontal */
+    padding: 20px;
+    scrollbar-width: thin; /* Personalizar el scrollbar en Firefox */
+}
+
+.video-slider::-webkit-scrollbar {
+    height: 8px; /* Altura del scrollbar */
+}
+
+.video-slider::-webkit-scrollbar-thumb {
+    background: #ff3d00; /* Color del thumb del scrollbar */
+    border-radius: 4px;
+}
+
+.video-item {
+    min-width: 200px; /* Ancho mínimo de cada video */
+    margin-right: 10px; /* Espacio entre los videos */
+    cursor: pointer; /* Cursor de mano al pasar el mouse */
+}
+
+.video-item img {
+    width: 100%;
+    border-radius: 8px; /* Bordes redondeados de las imágenes */
+}
+
+.video-modal {
+    display: none; /* Ocultar modal por defecto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro semitransparente */
+    justify-content: center; /* Centrar contenido */
+    align-items: center; /* Centrar contenido */
+}
+
+.modal-content {
+    position: relative;
+    width: 80%;
+    max-width: 800px; /* Ancho máximo del video */
+    background-color: #fff; /* Fondo blanco para el video */
+    border-radius: 8px; /* Bordes redondeados */
+    overflow: hidden; /* Esconder el contenido que sobresale */
+}
+
+.video-modal iframe {
+    width: 100%;
+    height: 450px; /* Altura del iframe */
+    border: none; /* Sin borde */
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    color: #ff3d00; /* Color del botón de cerrar */
+    cursor: pointer; /* Cursor de mano al pasar el mouse */
+}
+
+</style>
 </head>
-
 <body>
-    <header>
-        <h1>Roms WII U wua</h1>
 
+    <header>
+        <h1 aria-label="chakielroms.com">ChakielRoms</h1>
     </header>
 
-    <section id="main-image">
-        <img src="assets/img/images.jpeg" alt="Imagen principal de Wii U">
-    </section>
-    
-    <img src="chakiel.png" alt="roms wii u chakiel youtube" class="center-image">
-    
-    
-<footer>
-    <div class="social-container">
-        <a href="https://www.youtube.com/@ChakielZero" target="_blank">
-            <img src="assets/icons/youtube.png" alt="" class="social-icon">
-        </a>
-        <a href="https://www.tiktok.com/@chakielzero" target="_blank">
-            <img src="assets/icons/tiktok.png" alt="" class="social-icon">
-        </a>
-        <a href="https://www.instagram.com/gerardo.bricenoo/" target="_blank">
-            <img src="assets/icons/instagram.png" alt="" class="social-icon">
-        </a>
-        <a href="https://www.chakielemuladores.com/" target="_blank">
-            <img src="assets/icons/chakiel.png" alt="" class="social-icon">
-        </a>
-    </div>
-</footer>
+    <!-- Sección Principal con logo y redes sociales -->
     <section class="intro">
+        <div id="main-image">
+           <img src="in.png" alt="Emuladores y roms by Chakiel" class="mobile-image">
+           <img src="desktop.png" alt="Emuladores y roms para computadoras by Chakiel" class="desktop-image">
+         </div>
 
-        <h2>Juegos <span style="color: cyan;">Wii</span> U 100%</h2>
-        <p>compatibles con <span style="color: cyan;">ANDROID</span></p>
-    </section><br>
-  <div class="button-container">
-    <a href="https://chakielroms.com/dmca" target="_blank">
-        <button class="button-85">DMCA</button>
-    </a><br>
-  </div>
-    
-    <div id="search">
-        <input type="text" id="search-input" placeholder="Buscar juego ..." oninput="filterGames()">
-    </div>
+        <p>Bienvenidos a Chakielroms.com El mejor lugar para tener tus juegos categorizados.</p>
 
-    <section id="gallery">
     </section>
-  <footer>
-    <div class="social-container">
-        <a href="LINK_AQUI" target="_blank">
-            <img src="assets/icons/youtube.png" alt="" class="social-icon">
-        </a>
-        <a href="LINK_AQUI" target="_blank">
-            <img src="assets/icons/discord.png" alt="" class="social-icon">
-        </a>
-        <a href="LINK_AQUI" target="_blank">
-            <img src="assets/icons/telegram.png" alt="" class="social-icon">
-        </a>
-        <a href="LINK_AQUI" target="_blank">
-            <img src="assets/icons/tiktok.png" alt="" class="social-icon">
-        </a>
-    </div>
-    <h3>SITIO WEB DE <span style="color: red;">CHAKIELZERO</span></h3>
-</footer>
 
-    <script src="assets/js/game.js"></script>
-    <script src="assets/js/listas.js"></script>
+    <!-- Sección de Categorías -->
+    <section id="gallery">
+        <h1>Categoría</h1>
+        <div class="game">
+            <img src="system1.png" alt="Wii U roms by ChakielZero">
+            <p>Wii u Roms</p>
+            <button>Emulador</button>
+            <a href="wiiu/">
+            <button>Ver Juegos</button>
+            </a>
+        </div>
+
+        <div class="game">
+            <img src="system2.png" alt=" Switch roms by ChakielZero">
+            <p>N $w!7$h</p>
+            <button>Emulador</button>
+            <a href="sudachi/">
+            <button>Ver Juegos</button>
+            </a>
+        </div>
+
+        <div class="game">
+            <img src="psvita.png" alt="PsVita roms by ChakielZero">
+            <p>PsVita</p>
+            <button>Emulador</button>
+            <a href="psvita/">
+            <button>Ver Juegos</button>
+            </a>
+        </div>
+
+        
+    </section>
+    <h2 class="video-title">Últimos Videos</h2>
+<!--
+    <div class="video-container">
+    <iframe 
+        src="https://www.youtube.com/embed/jeZ5PA8Q354?si=h3dv1IBfsi2dAwr_" 
+        frameborder="0" 
+        allowfullscreen>
+    </iframe>
+</div> -->
+
+<div class="uvideos">
+    <div class="video-slider">
+        <div class="video-item" data-video-id="jeZ5PA8Q354">
+            <img src="https://img.youtube.com/vi/jeZ5PA8Q354/hqdefault.jpg" alt="Video ChakielZero">
+        </div>
+        <div class="video-item" data-video-id="DCF6llxEChM">
+            <img src="https://img.youtube.com/vi/DCF6llxEChM/hqdefault.jpg" alt="Video 2 de ChakielZero">
+        </div>
+        <div class="video-item" data-video-id="OVLi0pWQydo">
+            <img src="https://img.youtube.com/vi/OVLi0pWQydo/hqdefault.jpg" alt="ChakielZero último Video">
+        </div>
+        <div class="video-item" data-video-id="wgcQYFp_bG8">
+            <img src="https://img.youtube.com/vi/wgcQYFp_bG8/hqdefault.jpg" alt="ChakielRoms.com Video">
+        </div>
+        <div class="video-item" data-video-id="sxutEMsfWs0">
+            <img src="https://img.youtube.com/vi/sxutEMsfWs0/hqdefault.jpg" alt="Chakiel">
+        </div>
+    </div>
+
+    <div class="video-modal" id="videoModal">
+        <span class="close" id="closeModal">&times;</span>
+        <div class="modal-content">
+            <iframe id="modalVideo" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    
+</div>
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 -  🕹️ ChakielRoms.com  🕹️ Todos los derechos reservados.</p>
+        <!-- Redes sociales -->
+        <div class="social-container">
+            <a href="#"><img class="social-icon" src="discord.png" alt="Discord ChakielZero Youtube"></a>
+            <a href="#"><img class="social-icon" src="tiktok.png" alt="Tiktok ChakielZero"></a>
+            <a href="#"><img class="social-icon" src="youtube.png" alt="Chakiel Zero Videos Youtube"></a>
+            <a href="#"><img class="social-icon" src="telegram.png" alt="Grupo Telegram ChakielZero"></a>
+        </div>
+    </footer>
+<script src="script.js"></script>
 </body>
 </html>
