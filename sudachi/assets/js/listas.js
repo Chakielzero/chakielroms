@@ -2,14 +2,14 @@
 const juegos = [
     {
         id: "Animal Crossing New Horizons",
-        imgSrc: "assets/img/007legends.jpg",
+        imgSrc: "assets/img/animalcrosing.jpg",
         altText: "Animal Crossing New Horizons",
         title: "Animal Crossing New Horizons+ UPDATE+ 3DLC.XCI",
         downloadLink2: "https://cuty.io/uFw3" // Segundo enlace de descarga
     },       
     {
         id: "Another Code Recollection",
-        imgSrc: "assets/img/zombiu.jpg",
+        imgSrc: "assets/img/another.jpg",
         altText: "Another Code Recollection",
         title: "Another Code Recollection.XCI",
         downloadLink2: "https://cuty.io/p0DPkLamO" // Segundo enlace de descarga
