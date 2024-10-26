@@ -1,18 +1,18 @@
 // Lista de juegos
 const juegos = [
     {
-        id: "007 Legends",
+        id: "Animal Crossing New Horizons",
         imgSrc: "assets/img/007legends.jpg",
-        altText: "007 Legends",
-        title: "007™ Legends (EU).wua",
-        downloadLink2: "https://cuty.io/T4bzUh" // Segundo enlace de descarga
+        altText: "Animal Crossing New Horizons",
+        title: "Animal Crossing New Horizons+ UPDATE+ 3DLC.XCI",
+        downloadLink2: "https://cuty.io/uFw3" // Segundo enlace de descarga
     },       
     {
-        id: "ZombiU",
+        id: "Another Code Recollection",
         imgSrc: "assets/img/zombiu.jpg",
         altText: "ZombiU",
-        title: "ZombiU (USA) (v32).wua",
-        downloadLink2: "https://cuty.io/kKSR088P" // Segundo enlace de descarga
+        title: "Another Code Recollection.XCI",
+        downloadLink2: "https://cuty.io/p0DPkLamO" // Segundo enlace de descarga
     }
 ];
 
