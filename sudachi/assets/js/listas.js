@@ -10,7 +10,7 @@ const juegos = [
     {
         id: "Another Code Recollection",
         imgSrc: "assets/img/zombiu.jpg",
-        altText: "ZombiU",
+        altText: "Another Code Recollection",
         title: "Another Code Recollection.XCI",
         downloadLink2: "https://cuty.io/p0DPkLamO" // Segundo enlace de descarga
     }
