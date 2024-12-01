@@ -117,7 +117,7 @@ const juegos = [
         imgSrc: "assets/img/darksiders.jpg",
         altText: "Darksiders",
         title: "Darksiders (US).wua",
-        downloadLink2: "https://cuty.io/dOzQNCDccii2" // Segundo enlace de descarga
+        downloadLink2: "https://cuty.io/XXEzgjPio" // Segundo enlace de descarga
 
     },
     {
@@ -237,7 +237,7 @@ const juegos = [
         imgSrc: "assets/img/marioysonicsochi2014.jpg",
         altText: "Mario y sonic sochi 2014",
         title: "MARIO & SONIC SOCHI 2014 (EU) (v32).wua",
-        downloadLink2: "https://cuty.io/t4ojp" // Segundo enlace de descarga
+        downloadLink2: "https://cuty.io/tqT3iXK" // Segundo enlace de descarga
 
     },
     {
@@ -270,6 +270,14 @@ const juegos = [
         altText: "Mario vs. Donkey Kong Tipping Stars",
         title: "Mario vs. Donkey Kong Tipping Stars (USA).wua",
         downloadLink2: "https://cuty.io/p9gD" // Segundo enlace de descarga
+
+    },
+    {
+        id: "Minecraft Wii U Edition",
+        imgSrc: "assets/img/minecraft.jpg",
+        altText: "Minecraft Wii U Edition (USA)",
+        title: "Minecraft Wii U Edition (USA).wua",
+        downloadLink2: "https://cuty.io/Rh2S" // Segundo enlace de descarga
 
     },
     {
@@ -485,7 +493,7 @@ const juegos = [
         imgSrc: "assets/img/thehyrulehistoria.jpg",
         altText: "The Legend of Zelda Hyrule Historia",
         title: "The Legend of Zelda - Hyrule Historia (USA).wua",
-        downloadLink2: "https://cuty.io/JLmHwsAKD4" // Segundo enlace de descarga
+        downloadLink2: "https://cuty.io/5RYA" // Segundo enlace de descarga
 
     },
     {
@@ -525,7 +533,7 @@ const juegos = [
         imgSrc: "assets/img/turbo.jpg",
         altText: "Turbo Super Stunt Squad",
         title: "Turbo Super Stunt Squad (USA).wua",
-        downloadLink2: "https://cuty.io/BwnMAPGM4tUF" // Segundo enlace de descarga
+        downloadLink2: "https://cuty.io/nqIzNP6P" // Segundo enlace de descarga
 
     },
     {
@@ -534,6 +542,14 @@ const juegos = [
         altText: "Wipeout 3",
         title: "Wipeout 3 (USA).wua",
         downloadLink2: "https://cuty.io/HyvbCaczfDbS" // Segundo enlace de descarga
+
+    },
+    {
+        id: "Xenoblade Chronicles X",
+        imgSrc: "assets/img/xenoblade.jpg",
+        altText: "Xenoblade Chronicles X",
+        title: "Xenoblade Chronicles X (EU) (v16).wua",
+        downloadLink2: "https://cuty.io/qAiexlor" // Segundo enlace de descarga
 
     },
     {
