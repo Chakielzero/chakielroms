@@ -26,3 +26,7 @@ videoModal.addEventListener('click', (e) => {
         videoModal.style.display = 'none'; // Ocultar modal
     }
 });
+
+function redirectToLike() {
+  window.open("https://www.youtube.com/watch?v=HvFm4GcBlGs", "_blank");
+}
