@@ -57,3 +57,6 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+function redirectToLike() {
+  window.open("https://www.youtube.com/watch?v=HvFm4GcBlGs", "_blank");
+}
