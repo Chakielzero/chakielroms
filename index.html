@@ -235,6 +235,37 @@ p:hover {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+.like-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff0000; /* Rojo típico de YouTube */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.like-button:hover {
+  background-color: #cc0000; /* Oscurece el rojo al pasar el ratón */
+}
+
+/* Responsividad para móviles */
+@media (max-width: 600px) {
+  .video-container {
+    max-width: 100%;
+    border-radius: 0;
+  }
+
+  .like-button {
+    width: 100%;
+    font-size: 14px;
+  }
+}
 
 .game button:hover {
     background-color: #ff4d79;
