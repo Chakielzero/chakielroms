@@ -97,6 +97,14 @@ const juegos = [
 
     },       
     {
+        id: "Final Fantasy X 2 HD Remaster",
+        imgSrc: "assets/img/final2.jpg",
+        altText: "Final Fantasy X-2 HD Remaster",
+        title: "Final Fantasy X-2 HD Remaster (USA) (PCSE00283).zip",
+        downloadLink2: "https://nephobox.com/s/1jgGq3XYSspIxQFwjLLt0ng" // Segundo enlace de descarga
+
+    },       
+    {
         id: "God of War Collection",
         imgSrc: "assets/img/godofwar.jpg",
         altText: "God of War Collection",
@@ -141,7 +149,7 @@ const juegos = [
         imgSrc: "assets/img/hyper3.jpg",
         altText: "Hyperdimension Neptunia Re;Birth3 V Generation",
         title: "Hyperdimension Neptunia Re;Birth3 V Generation (USA) (PCSE00661).zip",
-        downloadLink2: "https://cuty.io/8lwdg9" // Segundo enlace de descarga
+        downloadLink2: "https://nephobox.com/s/1iZ5MEPLE--59QSn5D5U1Ig" // Segundo enlace de descarga
 
     },       
     {
