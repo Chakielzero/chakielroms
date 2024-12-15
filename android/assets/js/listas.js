@@ -108,7 +108,7 @@ const juegos = [
         id: "Rain World",
         imgSrc: "assets/img/rain.jpg",
         altText: "Rain World",
-        title: "Rain World",
+        title: "Rain World.apk",
         downloadLink2: "https://nephobox.com/s/1j7tDPHOSnHyqDja-dDMWTg" // Segundo enlace de descarga
 
     },       
