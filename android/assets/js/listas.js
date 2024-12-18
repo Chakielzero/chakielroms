@@ -131,7 +131,7 @@ const juegos = [
     {
         id: "Pvz Fusion",
         imgSrc: "assets/img/pvzfusion.jpg",
-        altText: "Pvz Fusion",
+        altText: "pvzfusion",
         title: "Pvz Fusion 2.1.6.apk",
         downloadLink2: "https://nephobox.com/s/1QMqt3w3y1Dv7C6RpsQ3G1w" // Segundo enlace de descarga
 
