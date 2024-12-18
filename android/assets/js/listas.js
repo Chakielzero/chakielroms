@@ -17,10 +17,26 @@ const juegos = [
 
     },       
     {
+        id: "Bully",
+        imgSrc: "assets/img/bully.jpg",
+        altText: "Bully",
+        title: "Bully.apk +obb",
+        downloadLink2: "https://nephobox.com/s/1bcL-bP6SuPzcnMFuMMkCmA" // Segundo enlace de descarga
+
+    },       
+    {
+        id: "Cuphead Mobile",
+        imgSrc: "assets/img/cuphead.jpg",
+        altText: "Cuphead",
+        title: "Cuphead Mobile.apk",
+        downloadLink2: "https://nephobox.com/s/1_MN4aGCsfnjs8rKLn8UUqA" // Segundo enlace de descarga
+
+    },       
+    {
         id: "Dead Cells",
         imgSrc: "assets/img/dead.jpg",
         altText: "Dead Cells",
-        title: "Dead Cells.apk",
+        title: "Dead Cells 3.3.15.apk",
         downloadLink2: "https://nephobox.com/s/1-bxMqm7W4bp3riOfJNPBlQ" // Segundo enlace de descarga
 
     },       
@@ -52,7 +68,7 @@ const juegos = [
         id: "Human Fall Flat",
         imgSrc: "assets/img/human.jpg",
         altText: "Human Fall Flat",
-        title: "Human Fall Flat.apk",
+        title: "Human Fall Flat 2.1.0.apk",
         downloadLink2: "https://nephobox.com/s/1BYLixVSVgWunAuPolyANXA" // Segundo enlace de descarga
 
     },       
@@ -76,8 +92,16 @@ const juegos = [
         id: "Max Payne Mobile",
         imgSrc: "assets/img/max.jpg",
         altText: "Max Payne Mobile",
-        title: "Max Payne Mobile.apk",
+        title: "Max Payne Mobile Installer.apk",
         downloadLink2: "https://nephobox.com/s/13Bhus5P9sHTUzftqx9mWZg" // Segundo enlace de descarga
+
+    },       
+    {
+        id: "Minecraft pe",
+        imgSrc: "assets/img/minecraft.jpg",
+        altText: "Minecraft PE",
+        title: "Minecraft PE 1.21.51.apk",
+        downloadLink2: "https://nephobox.com/s/1tpPKcegk2UhRNWB8MHRLow" // Segundo enlace de descarga
 
     },       
     {
@@ -92,7 +116,7 @@ const juegos = [
         id: "Need For Speed Most Wanted 2012",
         imgSrc: "assets/img/nfsmost.jpg",
         altText: "Need For Speed Most Wanted 2012",
-        title: "Need For Speed Most Wanted 2012.apk",
+        title: "Need For Speed Most Wanted 2012.apk +obb",
         downloadLink2: "https://nephobox.com/s/1dCoBhsHYkLzjro6CcS4-vA" // Segundo enlace de descarga
 
     },       
@@ -102,6 +126,14 @@ const juegos = [
         altText: "Poppy Playtime Chapter 3",
         title: "Poppy Playtime Chapter 3.apk",
         downloadLink2: "https://nephobox.com/s/1tauoHixENBA8nx_SbajafQ" // Segundo enlace de descarga
+
+    },       
+    {
+        id: "Pvz Fusion",
+        imgSrc: "assets/img/pvzfusion.jpg",
+        altText: "Pvz Fusion",
+        title: "Pvz Fusion 2.1.6.apk",
+        downloadLink2: "https://nephobox.com/s/1QMqt3w3y1Dv7C6RpsQ3G1w" // Segundo enlace de descarga
 
     },       
     {
@@ -126,6 +158,22 @@ const juegos = [
         altText: "Stardew Valley",
         title: "Stardew Valley.apk",
         downloadLink2: "https://nephobox.com/s/1HvpBqh4r0yyUsWo_5WptfA" // Segundo enlace de descarga
+
+    },       
+    {
+        id: "Super Mario 4 Jugadores Legacy",
+        imgSrc: "assets/img/sm4legacy.jpg",
+        altText: "Super Mario 4 Jugadores Legacy",
+        title: "Super Mario 4 Jugadores Legacy 2.0.1.apk",
+        downloadLink2: "https://nephobox.com/s/1eWlkexssnaubLWl49zHk9w" // Segundo enlace de descarga
+
+    },       
+    {
+        id: "Super Mario 4 Jugadores Online Battle",
+        imgSrc: "assets/img/sm4jugadores.jpg",
+        altText: "Super Mario 4 Jugadores Online Battle",
+        title: "Super Mario 4 Jugadores Online Battle 2.0.1.apk",
+        downloadLink2: "https://nephobox.com/s/1HyvX_XA80-GE1ET8oweBKQ" // Segundo enlace de descarga
 
     },       
     {
