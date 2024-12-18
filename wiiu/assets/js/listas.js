@@ -133,7 +133,7 @@ const juegos = [
         imgSrc: "assets/img/deusex.jpg",
         altText: "DEUS EX HUMAN REV. DIRECTOR'S CUT",
         title: "DEUS EX HUMAN REV. DIRECTOR'S CUT (USA).wua",
-        downloadLink2: "https://cuty.io/FHfLCJCjOsyR" // Segundo enlace de descarga
+        downloadLink2: "https://nephobox.com/s/1g1we-ZOj8HW1rvnSjybqtg" // Segundo enlace de descarga
 
     },
     {
@@ -157,7 +157,7 @@ const juegos = [
         imgSrc: "assets/img/ducktales.jpg",
         altText: "Ducktales Remastered",
         title: "DuckTales Remastered (US) (v32).wua",
-        downloadLink2: "https://cuty.io/w22EQS6" // Segundo enlace de descarga
+        downloadLink2: "https://nephobox.com/s/1iVq6BNAPilBeM9AvAUJ_Jw" // Segundo enlace de descarga
 
     },
     {
@@ -165,7 +165,7 @@ const juegos = [
         imgSrc: "assets/img/f1racestars.jpg",
         altText: "F1 RACE STARS - POWERED UP EDITION",
         title: "F1 RACE STARS - POWERED UP EDITION (USA).wua",
-        downloadLink2: "https://cuty.io/BuF6mYw4W" // Segundo enlace de descarga
+        downloadLink2: "https://nephobox.com/s/1K7WM0MQYgXZIXr_516RwWQ" // Segundo enlace de descarga
 
     },
     {
@@ -181,7 +181,7 @@ const juegos = [
         imgSrc: "assets/img/fastyfurious.jpg",
         altText: "Fast & Furious Showdown",
         title: "Fast & Furious - Showdown (USA).wua",
-        downloadLink2: "JJJ" // Segundo enlace de descarga
+        downloadLink2: "https://nephobox.com/s/1gY4nbNk1cVtWIYfjqxpYew" // Segundo enlace de descarga
 
     },
     {
@@ -213,7 +213,7 @@ const juegos = [
         imgSrc: "assets/img/hotwheels.jpg",
         altText: "Hot Wheels World’s Best Driver",
         title: "Hot Wheels - World’s Best Driver (USA).wua",
-        downloadLink2: "ggg" // Segundo enlace de descarga
+        downloadLink2: "https://nephobox.com/s/1ZSM6tg2ybruApkTmj2SP8Q" // Segundo enlace de descarga
 
     },
     {
@@ -245,7 +245,7 @@ const juegos = [
         imgSrc: "assets/img/legostar.jpg",
         altText: "LEGO STAR WARS - The Force Awakens",
         title: "LEGO STAR WARS - The Force Awakens (USA) (v32).wua",
-        downloadLink2: "jjj" // Segundo enlace de descarga
+        downloadLink2: "https://nephobox.com/s/1ZWHlSFacyVnawUfFtJ0MgA" // Segundo enlace de descarga
 
     },
     {
@@ -253,7 +253,7 @@ const juegos = [
         imgSrc: "assets/img/madden13.jpg",
         altText: "Madden NFL 13",
         title: "Madden NFL 13 (USA).wua",
-        downloadLink2: "ggg" // Segundo enlace de descarg
+        downloadLink2: "https://nephobox.com/s/11PWoabWQl0kI1X_Zq_zIxA" // Segundo enlace de descarg
 
     },
     {
@@ -301,7 +301,7 @@ const juegos = [
         imgSrc: "assets/img/mariovsdonkey.jpg",
         altText: "Mario vs. Donkey Kong Tipping Stars",
         title: "Mario vs. Donkey Kong Tipping Stars (USA).wua",
-        downloadLink2: "https://cuty.io/p9gD" // Segundo enlace de descarga
+        downloadLink2: "https://nephobox.com/s/1jBhu0DFAszxB8u_f1Qzmhg" // Segundo enlace de descarga
 
     },
     {
@@ -317,7 +317,7 @@ const juegos = [
         imgSrc: "assets/img/monsterhunter3.jpg",
         altText: "MONSTER HUNTER 3 ULTIMATE",
         title: "MONSTER HUNTER 3 ULTIMATE (USA) (v32).wua",
-        downloadLink2: "https://cuty.io/m12qZUnoOjFP" // Segundo enlace de descarga
+        downloadLink2: "https://nephobox.com/s/1czAhrwG-O9pv3zV9mFQaYg" // Segundo enlace de descarga
 
     },
     {
@@ -573,7 +573,7 @@ const juegos = [
         imgSrc: "assets/img/wipeout3.jpg",
         altText: "Wipeout 3",
         title: "Wipeout 3 (USA).wua",
-        downloadLink2: "https://cuty.io/HyvbCaczfDbS" // Segundo enlace de descarga
+        downloadLink2: "https://nephobox.com/s/1ymRqvsl6NKG9fkP5x2_DkQ" // Segundo enlace de descarga
 
     },
     {
